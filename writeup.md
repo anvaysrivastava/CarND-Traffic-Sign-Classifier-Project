@@ -35,8 +35,6 @@ Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/4
 * [own-images/*.png](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/tree/master/own-images) : Images downloaded from web as extra data samples.
 * [writeup.md](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup.md) : Writeup for the project.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
-
 ###Data Set Summary & Exploration
 
 ####1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
