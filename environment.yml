@@ -1,4 +1,4 @@
-name: carnd-term1
+name: carnd-term1-anvay
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
