@@ -1,21 +1,16 @@
 #**Traffic Sign Recognition** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Build a Traffic Sign Recognition Project**
 
 The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
-
+1. Load the data set (see below for links to the project data set)
+2. Explore, summarize and visualize the data set
+3. Design, train and test a model architecture
+4. Use the model to make predictions on new images
+5. Analyze the softmax probabilities of the new images
+6. Summarize the results with a written report
 
 [//]: # (Image References)
 
@@ -29,12 +24,16 @@ The goals / steps of this project are the following:
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
-###Writeup / README
+###Files Submitted
 
-####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
+* [environment.yml](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/environment.yml) : Contains added dependency in order to run the notebook
+* [Traffic_Sign_Classifier.html](http://anvay.xyz/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.html) : HTML view of one specific run
+* [Traffic_Sign_Classifier.ipynb](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb) : The notebook itself
+* [own-images/*.png](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/tree/master/own-images) : Images downloaded from web as extra data samples.
+* [writeup.md](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup.md) : Writeup for the project.
 
 You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
 
@@ -97,17 +96,17 @@ The code for my final model is located in the seventh cell of the ipython notebo
 
 My final model consisted of the following layers:
 
-| Layer         		|     Description	        					| 
+| Layer                 |     Description                               | 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
-| RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
-|						|												|
-|						|												|
+| Input                 | 32x32x3 RGB image                             | 
+| Convolution 3x3       | 1x1 stride, same padding, outputs 32x32x64    |
+| RELU                  |                                               |
+| Max pooling           | 2x2 stride,  outputs 16x16x64                 |
+| Convolution 3x3       | etc.                                          |
+| Fully connected       | etc.                                          |
+| Softmax               | etc.                                          |
+|                       |                                               |
+|                       |                                               |
  
 
 
@@ -156,13 +155,13 @@ The code for making predictions on my final model is located in the tenth cell o
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
+| Image                 |     Prediction                                | 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Stop Sign             | Stop sign                                     | 
+| U-turn                | U-turn                                        |
+| Yield                 | Yield                                         |
+| 100 km/h              | Bumpy Road                                    |
+| Slippery Road         | Slippery Road                                 |
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
@@ -173,13 +172,13 @@ The code for making predictions on my final model is located in the 11th cell of
 
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
-| Probability         	|     Prediction	        					| 
+| Probability           |     Prediction                                | 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| .60                   | Stop sign                                     | 
+| .20                   | U-turn                                        |
+| .05                   | Yield                                         |
+| .04                   | Bumpy Road                                    |
+| .01                   | Slippery Road                                 |
 
 
 For the second image ... 
