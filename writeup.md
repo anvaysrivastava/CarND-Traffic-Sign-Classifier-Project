@@ -33,7 +33,7 @@ Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/4
 * [Traffic_Sign_Classifier.html](http://anvay.xyz/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.html) : HTML view of one specific run
 * [Traffic_Sign_Classifier.ipynb](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb) : The notebook itself
 * [own-images/*.png](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/tree/master/own-images) : Images downloaded from web as extra data samples.
-* [writeup.md](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup.md) : Writeup for the project.
+* [writeup.md](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup.md) : Writeup for the project. Copied it to [Wiki for better view](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/wiki/Writeup)
 
 ###Data Set Summary & Exploration
 
