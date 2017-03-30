@@ -1,4 +1,4 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
 ---
 
@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
-###Files Submitted
+### Files Submitted
 
 * [environment.yml](https://github.com/anvaysrivastava/CarND-Traffic-Sign-Classifier-Project/blob/master/environment.yml) : Contains added dependency in order to run the notebook
 * [Traffic_Sign_Classifier.html](http://anvay.xyz/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.html) : HTML view of one specific run
